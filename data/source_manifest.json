@@ -1,0 +1,45 @@
+[
+  {
+    "id": "ontario-securities-act",
+    "title": "Securities Act, R.S.O. 1990, c. S.5",
+    "publisher": "Government of Ontario, e-Laws",
+    "jurisdiction": "Ontario",
+    "url": "https://www.ontario.ca/laws/statute/90s05",
+    "allowed_host": "www.ontario.ca",
+    "allowed_path_prefix": "/laws/statute/90s05",
+    "content_format": "html",
+    "permitted_use_basis": "Ontario copyright information permits accurate reproduction of statutes and regulations with Crown attribution.",
+    "attribution": "Copyright King's Printer for Ontario; source: e-Laws.",
+    "terms_url": "https://www.ontario.ca/page/copyright-information",
+    "terms_checked": "2026-09-04"
+  },
+  {
+    "id": "pcmltfa-act",
+    "title": "Proceeds of Crime (Money Laundering) and Terrorist Financing Act",
+    "publisher": "Department of Justice Canada, Justice Laws Website",
+    "jurisdiction": "Canada",
+    "url": "https://www.laws-lois.justice.gc.ca/eng/XML/P-24.501.xml",
+    "allowed_host": "www.laws-lois.justice.gc.ca",
+    "allowed_path_prefix": "/eng/XML/P-24.501.xml",
+    "content_format": "xml",
+    "permitted_use_basis": "The Reproduction of Federal Law Order permits accurate reproduction that is not represented as official.",
+    "attribution": "Source: Department of Justice Canada, Justice Laws Website. This prototype is not an official version.",
+    "terms_url": "https://www.canada.ca/en/canadian-heritage/services/crown-copyright-request.html",
+    "terms_checked": "2026-09-04"
+  },
+  {
+    "id": "pcmltfa-regulations",
+    "title": "Proceeds of Crime (Money Laundering) and Terrorist Financing Regulations",
+    "publisher": "Department of Justice Canada, Justice Laws Website",
+    "jurisdiction": "Canada",
+    "url": "https://laws-lois.justice.gc.ca/eng/XML/SOR-2002-184.xml",
+    "allowed_host": "laws-lois.justice.gc.ca",
+    "allowed_path_prefix": "/eng/XML/SOR-2002-184.xml",
+    "content_format": "xml",
+    "permitted_use_basis": "The Reproduction of Federal Law Order permits accurate reproduction that is not represented as official.",
+    "attribution": "Source: Department of Justice Canada, Justice Laws Website. This prototype is not an official version.",
+    "terms_url": "https://www.canada.ca/en/canadian-heritage/services/crown-copyright-request.html",
+    "terms_checked": "2026-09-04"
+  }
+]
+

@@ -1,0 +1,11 @@
+SIMULATION ONLY - Demo Source Regulation
+
+Section 1 - Scope
+This fictional source exists only to test the review workflow.
+
+Section 9 - Client identity
+A demo dealer records a client's name when opening a demo account.
+
+Section 10 - Records
+A demo dealer keeps the account record for two demo years.
+

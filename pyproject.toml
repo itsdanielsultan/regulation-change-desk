@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "regulation-change-desk"
+version = "0.1.0"
+description = "A local Strands agent that prepares evidence-bound regulatory change review packets."
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+dependencies = [
+  "pydantic>=2.10,<3",
+  "strands-agents[ollama]==1.54.0",
+]
+
+[project.scripts]
+reg-change-desk = "reg_change_desk.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Regulation Change Desk architecture</title>
+  <desc id="desc">A deterministic evidence pipeline feeds a Strands agent, validates its draft, and requires a separate human decision before any local baseline can advance.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L10,5 L0,10 z" fill="#334155"/>
+    </marker>
+    <style>
+      .title { font-family: 'Avenir Next', 'Helvetica Neue', Arial, sans-serif; font-size: 42px; font-weight: 700; fill: #0f172a; }
+      .subtitle { font-family: 'Avenir Next', 'Helvetica Neue', Arial, sans-serif; font-size: 20px; font-weight: 400; fill: #475569; }
+      .label { font-family: 'Avenir Next', 'Helvetica Neue', Arial, sans-serif; font-size: 20px; font-weight: 600; fill: #0f172a; }
+      .small { font-family: 'Avenir Next', 'Helvetica Neue', Arial, sans-serif; font-size: 17px; font-weight: 400; fill: #475569; }
+      .branch { font-family: 'Avenir Next', 'Helvetica Neue', Arial, sans-serif; font-size: 16px; font-weight: 600; fill: #334155; }
+      .box { fill: #ffffff; stroke: #cbd5e1; stroke-width: 2; rx: 14; }
+      .agent { fill: #eef4ff; stroke: #4774d9; stroke-width: 2; rx: 14; }
+      .human { fill: #fff9e8; stroke: #c99624; stroke-width: 2; }
+      .outcome { fill: #f8fafc; stroke: #94a3b8; stroke-width: 2; rx: 14; }
+      .line { stroke: #334155; stroke-width: 2.5; fill: none; marker-end: url(#arrow); }
+      .dash { stroke: #64748b; stroke-width: 2; stroke-dasharray: 8 7; fill: none; marker-end: url(#arrow); }
+    </style>
+  </defs>
+
+  <rect width="1600" height="900" fill="#ffffff"/>
+  <text class="title" x="72" y="76">Regulation Change Desk</text>
+  <text class="subtitle" x="72" y="111">Evidence first. A person keeps the final say.</text>
+
+  <rect class="box" x="72" y="174" width="272" height="112"/>
+  <text class="label" x="208" y="215" text-anchor="middle">Synthetic fixture</text>
+  <text class="small" x="208" y="246" text-anchor="middle">Current working demo</text>
+  <text class="small" x="208" y="272" text-anchor="middle">Clearly marked as simulated</text>
+
+  <rect class="box" x="72" y="334" width="272" height="112"/>
+  <text class="label" x="208" y="375" text-anchor="middle">Official source</text>
+  <text class="small" x="208" y="406" text-anchor="middle">Allowlisted fetcher</text>
+  <text class="small" x="208" y="432" text-anchor="middle">Tested library component</text>
+
+  <rect class="box" x="426" y="250" width="280" height="120"/>
+  <text class="label" x="566" y="293" text-anchor="middle">Deterministic evidence</text>
+  <text class="small" x="566" y="324" text-anchor="middle">Canonical text + SHA-256</text>
+  <text class="small" x="566" y="350" text-anchor="middle">Exact line-level diff</text>
+
+  <rect class="agent" x="798" y="250" width="270" height="120"/>
+  <text class="label" x="933" y="293" text-anchor="middle">Strands Agent</text>
+  <text class="small" x="933" y="324" text-anchor="middle">Four narrow tools</text>
+  <text class="small" x="933" y="350" text-anchor="middle">Local Ollama model</text>
+
+  <rect class="box" x="798" y="440" width="270" height="104"/>
+  <text class="label" x="933" y="481" text-anchor="middle">Lesson catalogue</text>
+  <text class="small" x="933" y="514" text-anchor="middle">Six new topic records</text>
+
+  <rect class="box" x="1150" y="250" width="304" height="120"/>
+  <text class="label" x="1302" y="293" text-anchor="middle">Validate + render</text>
+  <text class="small" x="1302" y="324" text-anchor="middle">Pydantic + evidence checks</text>
+  <text class="small" x="1302" y="350" text-anchor="middle">Draft JSON + escaped HTML</text>
+
+  <polygon class="human" points="1302,466 1446,552 1302,638 1158,552"/>
+  <text class="label" x="1302" y="545" text-anchor="middle">Human decision</text>
+  <text class="small" x="1302" y="575" text-anchor="middle">Separate command</text>
+
+  <rect class="outcome" x="1016" y="726" width="248" height="100"/>
+  <text class="label" x="1140" y="766" text-anchor="middle">Reject / needs work</text>
+  <text class="small" x="1140" y="798" text-anchor="middle">Baseline stays unchanged</text>
+
+  <rect class="outcome" x="1340" y="726" width="188" height="100"/>
+  <text class="label" x="1434" y="766" text-anchor="middle">Approve</text>
+  <text class="small" x="1434" y="797" text-anchor="middle">Exact confirmation</text>
+
+  <rect class="box" x="72" y="612" width="360" height="116"/>
+  <text class="label" x="252" y="653" text-anchor="middle">InvestmentRegulation.ca</text>
+  <text class="small" x="252" y="684" text-anchor="middle">Pre-existing project context</text>
+  <text class="small" x="252" y="710" text-anchor="middle">No code or course content imported</text>
+
+  <path class="line" d="M344 230 H392 Q410 230 426 264"/>
+  <path class="line" d="M344 390 H392 Q410 390 426 356"/>
+  <path class="line" d="M706 310 H798"/>
+  <path class="line" d="M1068 310 H1150"/>
+  <path class="line" d="M1302 370 V466"/>
+  <path class="line" d="M1241 604 Q1218 650 1170 726"/>
+  <path class="line" d="M1363 604 Q1395 656 1425 726"/>
+  <path class="line" d="M933 440 V370"/>
+  <path class="dash" d="M432 670 H720 Q760 670 798 528"/>
+
+  <text class="branch" x="1098" y="678">Keep draft</text>
+  <text class="branch" x="1380" y="678">Advance local baseline</text>
+  <text class="small" x="512" y="654">problem context only</text>
+</svg>

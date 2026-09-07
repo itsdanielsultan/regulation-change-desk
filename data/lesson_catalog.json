@@ -1,0 +1,33 @@
+[
+  {
+    "id": "REG-FRAMEWORK",
+    "title": "Who makes and enforces investment rules",
+    "keywords": ["regulator", "jurisdiction", "rule", "oversight", "authority"]
+  },
+  {
+    "id": "REGISTRATION",
+    "title": "Registration and permitted activities",
+    "keywords": ["registration", "registered", "dealer", "adviser", "permitted"]
+  },
+  {
+    "id": "CLIENT-ID",
+    "title": "Client identity checks",
+    "keywords": ["identity", "identify", "client", "account", "verification"]
+  },
+  {
+    "id": "TRANSACTION-REPORTING",
+    "title": "Transaction monitoring and reporting",
+    "keywords": ["transaction", "report", "suspicious", "monitoring", "threshold"]
+  },
+  {
+    "id": "RECORDS",
+    "title": "Records and retention",
+    "keywords": ["record", "retain", "retention", "document", "evidence"]
+  },
+  {
+    "id": "ENFORCEMENT",
+    "title": "Compliance and enforcement",
+    "keywords": ["compliance", "enforcement", "penalty", "inspection", "violation"]
+  }
+]
+
