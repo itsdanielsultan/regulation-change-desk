@@ -90,7 +90,7 @@ RUN_OLLAMA_SMOKE=1 .venv/bin/python -m unittest tests/test_agent_smoke.py -v
 
 - The model cannot choose a source URL or a filesystem path.
 - Only manifest-listed HTTPS hosts and paths can be fetched; redirect targets are checked again.
-- Changes exceeding24 added/removed lines, a280-character changed line or heading, or a12,000-character diff are rejected for manual review. Evidence is not silently truncated.
+- Changes exceeding 24 added/removed lines, a 280-character changed line or heading, or a 12,000-character diff are rejected for manual review. Evidence is not silently truncated.
 - Source text is treated as evidence, never as instructions.
 - The model receives no filesystem, network, publishing, or baseline-changing tool. Packet and baseline writes happen outside the agent loop and only after deterministic validation.
 - CIRO pages are excluded because CIRO's current website terms restrict automated scraping, indexing, cataloguing, reproduction, and most deep links without written permission.
