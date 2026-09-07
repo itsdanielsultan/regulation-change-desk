@@ -4,6 +4,8 @@ A local Strands agent that helps a course maintainer review changes in Canadian 
 
 This is an early hackathon prototype. It does not update InvestmentRegulation.ca, provide legal advice, or automate CIRO retrieval. The working demonstration uses fictional text and is visibly labelled `SIMULATION ONLY`.
 
+Released under the [MIT licence](LICENSE). Third-party components keep their own licences; see [dependency notices](THIRD_PARTY_NOTICES.md).
+
 ## What works now
 
 - deterministic canonicalization, SHA-256 evidence, and line-level diffing;
